@@ -1,0 +1,23 @@
+{
+  "name": "Bank",
+  "version": "0.0.0",
+  "description": "Bank app",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "express-session": "^1.14.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^4.6.3",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "ng-file-upload": "^12.2.12",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0"
+  },
+  "author": "Devi V.S.",
+  "license": "Kottackal Business Solutions Pvt. Ltd."
+}
