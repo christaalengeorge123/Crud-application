@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 //var mongojs = require('mongojs');
 //var db = mongojs('contactlist', ['contactlist']);
+var port=process.env.PORT || 3000;
 var bodyParser = require('body-parser');
 
 var mongoose = require('mongoose');
@@ -93,5 +94,8 @@ writerStream.on('error', function(err){
 });
 
 
-app.listen(3000);
-console.log("Server running on port 3000");
+app.listen(port,function() {
+
+  console.log('Running the server on port' + port);
+
+});
